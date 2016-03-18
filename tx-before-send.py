@@ -1,17 +1,21 @@
+#!/usr/bin/env python
 import os
 import sys
 import json
-import jq
 import re
 
 import config
-import yaml2json as f
+import lib/yaml2json as f
 
 #TODO : move keys listed in pre-tx-push.jq into config.py file and make pre-tx-push.jq key selection dynamic
 
 #TODO: comment file
 
-rootdir = "../../_posts"
+source_folder = "/_posts"
+source_lang = "/en"
+rootdir = os.getcwd() + source_folder + source_lang
+print(rootdir)
+quit()
 
 def getBoundary(): 
 	temp = open(os.path.join(subdir, file), "r")
