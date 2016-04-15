@@ -55,7 +55,6 @@ Translation for the content as code workflow using Jekyll or another static webs
 
 > After the translations have been created or updated the website can be generated and deployed.
 
- -  
  - `jekyll server` or `jekyll build` should generate a site that can then be deployed.
 
 ## Requirements
@@ -75,7 +74,7 @@ Translation for the content as code workflow using Jekyll or another static webs
 
 # TODO
 
- - Create a `fixture-transifex` 
+ - Create a `fixture-jekyll-transifex` 
  - Implement Pages translation
  - Document the more complex PanicButton workflow. (It also involves building the Android app)
  - Document the more general case using `docsmith`
